@@ -64,8 +64,10 @@ export function Edit() {
       if (item.type === "radio") {
         formComponent = (
           <Radio.Group>
-            {item.options?.map((option) => (
-              <Radio value={option}>{option}</Radio>
+            {item.options?.map((option, index) => (
+              <Radio key={index} value={option}>
+                {option}
+              </Radio>
             ))}
           </Radio.Group>
         );
