@@ -72,6 +72,33 @@
       "compilerOptions": {
         "tsConfigPath": "libs/prisma/tsconfig.lib.json"
       }
+    },
+    "email": {
+      "type": "library",
+      "root": "libs/email",
+      "entryFile": "index",
+      "sourceRoot": "libs/email/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/email/tsconfig.lib.json"
+      }
+    },
+    "common": {
+      "type": "library",
+      "root": "libs/common",
+      "entryFile": "index",
+      "sourceRoot": "libs/common/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/common/tsconfig.lib.json"
+      }
+    },
+    "excel": {
+      "type": "library",
+      "root": "libs/excel",
+      "entryFile": "index",
+      "sourceRoot": "libs/excel/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/excel/tsconfig.lib.json"
+      }
     }
   }
 }
